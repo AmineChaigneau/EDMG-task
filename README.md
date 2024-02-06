@@ -1,7 +1,7 @@
-# README for GitHub Repository - "Embodiment of power: People choose reward, but are attracted by power"
+# README - "Driven by Reward but Attracted to Power: Decision-making in a novel Multiplayer Economic Game."
 
 ## Introduction
-Welcome to the GitHub repository for the paper titled "Embodiment of power: People choose reward, but are attracted by power" by Chaigneau Amine, Borozan Miloš, Pezzullo Giovanni, De Liberato Simone, Palumbo Riccardo, and Iodice Pierpaolo. This repository contains the software used for the experiment, which is a web application.
+Welcome to the GitHub repository for the paper titled "Driven by Reward but Attracted to Power: Decision-making in a novel Multiplayer Economic Game." by Chaigneau Amine, Borozan Miloš, Pezzullo Giovanni, De Liberato Simone, Palumbo Riccardo, and Iodice Pierpaolo. This repository contains the EDMG software (web application) used for the experiment.
 
 ## Important Note
 Please be aware that the web application included in this repository has some outdated dependencies, including an older version of React.js and Material-UI. The Heroku endpoint for the application is currently disabled. If you wish to update and maintain this codebase, you are free to do so.
