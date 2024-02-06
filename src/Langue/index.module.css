@@ -1,0 +1,35 @@
+.root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header {
+    margin: 0px;
+    max-width: 500px;
+}
+
+.flag {
+    margin-top: 40px;
+    display: flex;
+}
+
+.test>* svg {
+    height: 60px;
+    width: 60px;
+    margin: 5px 30px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}

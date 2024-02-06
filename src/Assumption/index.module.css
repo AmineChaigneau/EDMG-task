@@ -1,0 +1,91 @@
+.root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+.icon > svg {
+    height: 40px;
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    margin: 5px 0px;
+    background:#E4E4E4;
+}
+
+.slider {
+    width: 100%;
+    margin: 20px;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    left: -80px;
+    top: 50%;
+}
+
+.right {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.left > p {
+    width: 70px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.right > p {
+    width: 70px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progressBar {
+    position: absolute;
+    top: calc(50% + 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

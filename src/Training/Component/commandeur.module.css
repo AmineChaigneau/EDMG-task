@@ -1,0 +1,198 @@
+.root {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.slider {
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sommes {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #575454;
+}
+
+.sommes > div {
+    display: flex;
+    align-items: center;
+}
+
+.reponse {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 50px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer>p {
+    margin-top: 5px;
+}
+
+.arrowButton {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: 0.3s ease-out;
+}
+
+.arrowChoiceLeft {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    transition: 0.3s ease-out;
+    transform: rotate(180deg);
+}
+
+.arrowChoiceRight {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 70px;
+    right: 90px;
+    transition: 0.3s ease-out;
+}
+
+.arrow {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.arrow>svg {
+    width: 35px;
+    height: 35px;
+}
+
+.arrow> :nth-child(2) {
+    margin-top: -15px;
+}
+
+
+@-webkit-keyframes heartbeat {
+    from {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+    10% {
+            -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    }
+    17% {
+            -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+    33% {
+            -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    }
+    45% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+    10% {
+            -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    }
+    17% {
+            -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+    33% {
+            -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    }
+    45% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    }
+}
+
+.paragraphe {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0px;
+}
+
+.paragraphe>p {
+    margin: 5px 0px;
+}
+
+.dialogFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dialogImage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.dialogImage > img {
+    width: 400px;
+}

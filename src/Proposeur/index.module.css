@@ -1,0 +1,132 @@
+.root {
+    width: 100%;
+}
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.roleheader {
+    display: flex;
+    align-items: center;
+}
+
+.roleheader > svg {
+    height: 40px;
+    width: 40px;
+} */
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.slider {
+    width: 80%;
+    margin-top: 40px
+}
+
+.sommes {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.sommes > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.buttonWrapper {
+    margin-top: 30px;
+    position: relative;
+}
+
+.progressBar {
+    position: absolute;
+    top: calc(50% + 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player {
+    width: 500px;
+}
+
+.playertext {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.playerinfo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.playerContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.playerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 860px) {
+    .container {
+        margin-top: 70px;
+    }
+    .sommes {
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+    }
+    .sommes > div {
+        margin: 0px 10px;
+    }
+    .slider {
+        margin-top: 20px;
+    }
+    .reponse {
+        flex-flow: row;
+    }
+    .footer {
+        margin-top: 10px;
+    }
+}
+
+.commandersvg {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.commandersvg > svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}

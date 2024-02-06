@@ -1,0 +1,290 @@
+.root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.header {
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.essai {
+    margin: 40px 0px;
+}
+
+.essai > div {
+    margin: 0px 10px;
+}
+
+.test {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin: 20px 0px 40px 0px;
+}
+
+.footer {
+    /* position: absolute;
+    bottom: 50px; */
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerWait {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 45px 20px 30px 20px;
+}
+
+.chrono {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.chrono > svg {
+    width: 50px;
+    height: 50px;
+}
+
+.time {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 3px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #D13232;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.progressBar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* add */
+
+.joueurContainer {
+    position: relative;
+}
+
+.svgContainer {
+    position: relative;
+}
+
+.levelup {
+    position: absolute;
+    top: 0px;
+}
+
+.chronoContainer {
+    position: absolute;
+    top: 5px;
+    right: 80px;
+}
+
+@media screen and (max-width: 860px) {
+    .header {
+        margin: 0px 0px;
+    }
+    .container {
+        flex-flow: wrap;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .title {
+        margin: 0px 0px 5px 0px;
+    }
+    .essai {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+        width: calc(50% - 86px);
+    }
+    .essai > div {
+        margin: 5px 0px;
+    }
+    .joueurContainer {
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        margin-top: -25px;
+    }
+    .svgContainer {
+        transform: scale(0.7);
+    }
+    .chronoContainer {
+        position: absolute;
+        top: 25px;
+        left: -25px;
+    }
+    .chrono {
+        margin: 5px 0px;
+        width: 45px;
+        height: 45px;
+    }
+    .chrono > svg {
+        width: 45px;
+        height: 45px;
+    }
+    .time {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        top: 2px;
+        left: 0;
+        font-size: 12px;
+        color: #D13232;
+        font-weight: 400;
+        line-height: 0px;
+    }
+    .footer {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        width: 100px;
+        margin: 10px 0px;
+    }
+    .test {
+        justify-content: flex-start;
+    }
+}
+
+
+.player {
+    width: 500px;
+    /* height: 300px; */
+}
+
+.playertext {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.playerinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.playerinfo > div {
+    margin: 0px 10px;
+}
+
+.paperContainer {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dialogHeader {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.dialogContent {
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dialogContent > :nth-child(1) {
+    transform: scale(1.1);
+}
+
+.continuer {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.paragraphe > p {
+    margin: 10px 0px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon > svg {
+    height: 120px;
+    width: 120px;
+}
+
+.dialogFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+#mouselayout {
+    transform: rotate(45deg);
+}
+
+#clic {
+    /* transform: translateY(10px);  */
+    animation: clics 0.5s ease-in-out infinite;
+}
+
+@keyframes clics {
+    0% {
+        transform: translateY(0px);
+    } 
+    50% {
+        transform: translateY(10px);
+    }
+    70% {
+        transform: translateY(15px);
+    }
+}
+

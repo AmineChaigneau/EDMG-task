@@ -1,0 +1,292 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin: 20px 0px;
+}
+
+.table {
+    width: 80%;
+}
+
+.test {
+    margin-top : 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headertest {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chrono {
+    position: relative;
+    margin: 20px 0px;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+}
+
+.chrono > svg {
+    width: 60px;
+    height: 60px;
+}
+
+.time {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 3px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #D13232;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.footer {
+    position: relative;
+    /*  bottom: 30px; */
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > button {
+    margin: 0px 5px;
+}
+
+.dialogPlayers {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dialogPlayers > div {
+    margin: 10px 0px;
+}
+
+.playersTitle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.playersChip {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.playersChip > div {
+    margin: 0px 5px;
+}
+
+.dialogHeader {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.dialogHeader > div {
+    margin: 0px 5px;
+}
+
+.dialogContainer {
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.dialogContent {
+    min-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dialogContent > :nth-child(1) {
+    transform: scale(1.1);
+}
+
+.dialogRoleContainer {
+    width: 100%;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.continuer {
+    position: relative;
+    margin-top: 30px;
+}
+
+.choice {
+    position: relative;
+    margin: 10px;
+}
+
+.progressBar {
+    position: absolute;
+    top: calc(50% + 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadingDialog {
+    width: 100%;
+}
+
+/* add */
+
+.svgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.joueurContainer {
+    margin: 0px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgContainer {
+    position: relative;
+}
+
+.levelup {
+    position: absolute;
+    top: 0px;
+}
+
+.objectifborder {
+    position: absolute;
+    border: 3px dashed;
+    width: 100px;
+    left: 15px;
+}
+
+.objectiftext {
+    position: absolute;
+    left: 120px;
+}
+
+.svgBox :nth-child(1) { order: 1; }
+.svgBox :nth-child(2) { order: 3; }
+.svgBox :nth-child(3) { order: 2; }
+
+#userSvg { 
+    transform: scale(1.1);
+    position: relative;
+ }
+
+.joueurInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+}
+
+.chronoContainer {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    transform: scale(0.8);
+}
+
+
+@media screen and (max-width: 860px) {
+    .footer {
+        position: absolute;
+        right: 5px;
+        bottom: 15px;
+        width: 170px;
+        margin: 0px 0px;
+    }
+    .test {
+        margin-top : -20px;
+    }
+    .headertest {
+        flex-flow: row;
+        margin-bottom: 10px;
+    }
+    /* .chrono {
+        margin: 5px 0px;
+        width: 40px;
+        height: 40px;
+    } */
+    /* .chrono > svg {
+        width: 40px;
+        height: 40px;
+    }
+    .time {
+        width: 40px;
+        height: 40px; 
+        font-size: 12px;
+    } */
+    .svgBox {
+        transform: scale(0.7);
+    }
+    .joueurContainer {
+        margin: 0px 10px;
+    }
+}
+
+
+/* Changement */
+
+.svgLoading {
+    position: absolute;
+}
+
+.feedback {
+    margin: 0px 0px 15px 0px;
+    font-style: italic;
+    transition: 0.5s ease-in-out;
+}
+
+.tricheurContent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.tricheurHeader {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.tricheurContent > :nth-child(2) {
+    margin: 10px 0px;
+}

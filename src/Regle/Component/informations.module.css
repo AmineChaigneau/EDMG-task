@@ -1,0 +1,92 @@
+.paragraphe {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.paragraphe .description {
+    font-style: italic;
+    text-align: center;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.subtitle > p {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.svgContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgContent > svg {
+    width: 70px;
+    height: 70px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image > img {
+    height: 300px;
+}
+
+
+.imagebis {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imagebis > img {
+    height: 250px;
+}
+
+.imageContent {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.imageDescription {
+    margin: 15px 0px 15px 10px;
+}
+
+.imagemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 10px 0px;
+}
+
+.imagemenu > img {
+    height: 50px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .image > img {
+        height: 150px;
+    }
+}
+
+.imageSchema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageSchema > img {
+    height: 300px;
+}

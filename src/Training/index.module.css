@@ -1,0 +1,145 @@
+.root {
+    height: 100vh;
+    padding-top: 60px;
+}
+.input {
+   width: 100%;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+   padding: 0px 30px;
+   margin: 10px 0px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title > div {
+    margin: 0px 20px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.paragraphe {
+    display: flex;
+    flex-flow: column;
+}
+
+.paragraphe>p {
+    margin: 5px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dialogFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.continuer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.continuer > div:nth-child(1) {
+    position: relative;
+}
+
+.continuer > * {
+    margin: 0px 5px;
+}
+
+.progressBar {
+    position: absolute;
+    top: calc(50% + 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*  */
+
+.trial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: red;
+    background:rgb(233, 233, 233);
+    width: 45px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.training {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerinfo {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.roleContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+}
+
+.proposeur {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.proposeur > svg {
+    height: 30px;
+    width: 30px;
+}
+
+.commandeur {
+    display: flex;
+}
+
+.commandeur > div {
+    margin: 0px 5px
+}
+
+.commandeur > svg {
+    height: 30px;
+    width: 30px;
+}
+
+.arrowContainer {
+    margin: 15px 10px 0px 10px;
+}
+
+.paragraphe {
+    display: flex;
+    flex-flow: column;
+}
+
+.paragraphe>p {
+    margin: 5px 0px;
+}
+

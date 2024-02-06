@@ -1,0 +1,71 @@
+.form {
+    width: 100%;
+    user-select: none;
+}
+
+.root {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input {
+    width: 100%;
+    margin: 10px;
+}
+
+.inputBoth {
+    width: 100%;
+    margin: 10px 0px 10px 5px;
+}
+
+.inputrow {
+    display: flex;
+    width: 100%;
+}
+
+.checkLabel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progressBar {
+    position: absolute;
+    top: calc(50% + 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .root {
+        width: 95%;
+    }
+}

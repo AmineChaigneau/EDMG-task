@@ -1,0 +1,23 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgcontent {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgcontent > svg {
+    width: 70%;
+}
+
+.text {
+    width: 90%;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.root {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning {
+    margin-bottom: 30px;
+}
+
+.warning > svg {
+    width: 90px;
+    height: 90px;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.content > svg {
+    width: 90px;
+    height: 90px;
+}

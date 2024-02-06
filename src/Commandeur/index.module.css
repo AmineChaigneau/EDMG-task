@@ -1,0 +1,169 @@
+.root {
+    width: 100%;
+}
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.roleheader {
+    display: flex;
+    align-items: center;
+}
+
+.roleheader > svg {
+    height: 40px;
+    width: 40px;
+} */
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.slider {
+    width: 80%;
+    margin-top: 40px
+}
+
+.sommes {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #575454;
+}
+
+.sommes > div {
+    display: flex;
+    align-items: center;
+}
+
+.reponse {
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer > p {
+    margin-top: 5px;
+}
+
+.player {
+    width: 500px;
+}
+
+.playertext {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.playerinfo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.playerContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.playerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+/* 
+.chip {
+    display: flex;
+    background: red;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.avatar {
+    background: green;
+    border-radius: 50%; 
+    display: flex;
+    padding: 5px 10px;
+} */
+
+@media screen and (max-width: 860px) {
+    /* .header {
+        position: absolute;
+        justify-content: center;
+        top: 0px;
+        width: 100%;
+        left: 0px;
+        z-index: 1000;
+    }
+    .header > :nth-child(1) {
+        margin-right: 10px;
+    }
+    .roleheader > svg {
+        height: 25px;
+        width: 25px;
+    } */
+    .container {
+        margin-top: 50px;
+    }
+    .reponse {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .sommes {
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+    }
+    .sommes > div {
+        margin: 0px 10px;
+    }
+    .slider {
+        margin-top: 30px
+    }
+    .footer {
+        bottom: 10px;
+    }
+}
+
+.receveursvg {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.receveursvg > svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
