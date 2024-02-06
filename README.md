@@ -1,25 +1,36 @@
-# Getting Started with Create React App
+# README for GitHub Repository - "Embodiment of power: People choose reward, but are attracted by power"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Welcome to the GitHub repository for the paper titled "Embodiment of power: People choose reward, but are attracted by power" by Chaigneau Amine, Borozan Miloš, Pezzullo Giovanni, De Liberato Simone, Palumbo Riccardo, and Iodice Pierpaolo. This repository contains the software used for the experiment, which is a web application.
 
-## Available Scripts
+## Important Note
+Please be aware that the web application included in this repository has some outdated dependencies, including an older version of React.js and Material-UI. The Heroku endpoint for the application is currently disabled. If you wish to update and maintain this codebase, you are free to do so.
 
-In the project directory, you can run:
+## Run the app
 
-### `yarn start`
+First run `npm i` to install dependencies, then builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. Then, run `node server.js` on the console.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Citing the Paper
+If you use or refer to the code in this repository in your work, please cite our paper as follows:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Chaigneau Amine, Borozan Miloš, Pezzullo Giovanni, De Liberato Simone, Palumbo Riccardo, Iodice Pierpaolo. (Year). Driven by Reward but Attracted to Power: Decision-making in a novel Multiplayer Economic Game. [Journal Name/Conference Name], [Volume(Issue)], [Page Range].
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## More Recent Version
+A more recent and improved version of the experimental code is available at [https://github.com/AmineChaigneau/EDMG-task-multiplayer](https://github.com/AmineChaigneau/EDMG-task-multiplayer). This newer version is designed to work in a multiplayer environment and utilizes a Django local back-end. We recommend checking out this repository for an updated and enhanced experience.
 
-### `yarn build`
+## License
+Please note that the code in this repository may be subject to certain licenses. Make sure to review and comply with any licensing terms associated with specific components or dependencies used in the code.
+
+Thank you for your interest in our research, and we hope this repository proves useful to you. If you have any questions or need further assistance, please feel free to reach out.
+
+
+
+
+
+
+
+
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
